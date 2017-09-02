@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-#define QTD 1
+#define QTD 50
 typedef struct aluno {
 	char nome[51];
 	float nota;
@@ -13,11 +13,13 @@ enum boolean {
 };
 typedef enum boolean bool;
 
-aluno* cadastroAluno();
+void cadastroAluno(aluno *);
 int main() {
 	int i = 0;
 	aluno dados[QTD]; 
-	dados = cadastroAluno();
+	//memcpy(dados, cadastroAluno(), QTD );//
+
+	cadastroAluno(dados);
 
 	FILE *arquivo;
 	errno_t err;
@@ -50,9 +52,9 @@ int main() {
 	return EXIT_SUCCESS;
 }
 
-aluno* cadastroAluno() {
+void cadastroAluno(aluno *alunos) {
 	int i = 0;
-	aluno alunos[QTD];
+	//aluno alunos[QTD];
 	for (i = 0; i < QTD; i++)
 	{
 		printf("\nDigite o nome do aluno: ");
@@ -71,5 +73,5 @@ aluno* cadastroAluno() {
 		} while (!valido);
 		system("cls");
 	}
-	return alunos;
+	//return alunos;
 }
