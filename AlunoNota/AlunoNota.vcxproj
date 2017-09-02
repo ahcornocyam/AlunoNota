@@ -26,6 +26,7 @@
     <ProjectGuid>{58CDA9DD-56C8-48BA-A919-A78149EEA97F}</ProjectGuid>
     <RootNamespace>AlunoNota</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <ProjectName>Questao1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
