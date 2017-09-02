@@ -16,8 +16,7 @@ typedef enum boolean bool;
 void cadastroAluno(aluno *);
 int main() {
 	int i = 0;
-	aluno dados[QTD]; 
-	//memcpy(dados, cadastroAluno(), QTD );//
+	aluno dados[QTD];
 
 	cadastroAluno(dados);
 
@@ -53,8 +52,7 @@ int main() {
 }
 
 void cadastroAluno(aluno *alunos) {
-	int i = 0;
-	//aluno alunos[QTD];
+	int i = 0;	
 	for (i = 0; i < QTD; i++)
 	{
 		printf("\nDigite o nome do aluno: ");
@@ -72,6 +70,5 @@ void cadastroAluno(aluno *alunos) {
 			getchar();
 		} while (!valido);
 		system("cls");
-	}
-	//return alunos;
+	}	
 }

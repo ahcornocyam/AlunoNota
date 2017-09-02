@@ -34,7 +34,6 @@ int main() {
 		printf("\nNome: %s ", p[i].nome);
 		printf("\nIdade: %d ", p[i].idade);
 		printf("\nSexo: %c\n\n\n ", p[i].sexo);
-		//printf("\n\n\n");
 	}
 
 	system("pause");
