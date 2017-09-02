@@ -19,6 +19,7 @@ int main() {
 		gets_s(&p[i].nome, 50);
 		printf("\nIdade: ");
 		scanf_s("%d", &p[i].idade);
+		getchar();
 		printf("\nSexo: ");
 		scanf_s("%c", &p[i].sexo);
 		getchar();
@@ -32,8 +33,8 @@ int main() {
 		printf("\nPessoa do indice %d\n\n", i);
 		printf("\nNome: %s ", p[i].nome);
 		printf("\nIdade: %d ", p[i].idade);
-		printf("\nSexo: %c ", p[i].sexo);
-		printf("\n\n\n");
+		printf("\nSexo: %c\n\n\n ", p[i].sexo);
+		//printf("\n\n\n");
 	}
 
 	system("pause");
