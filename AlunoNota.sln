@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Questao8", "Questao8\Questa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Questao9", "Questao9\Questao9.vcxproj", "{9D6A1CA5-D419-4E0E-A361-6D9217B8C8C0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Questao10", "Questao10\Questao10.vcxproj", "{CD530BCE-0262-4A15-88D9-3DCACA01E333}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{9D6A1CA5-D419-4E0E-A361-6D9217B8C8C0}.Release|x64.Build.0 = Release|x64
 		{9D6A1CA5-D419-4E0E-A361-6D9217B8C8C0}.Release|x86.ActiveCfg = Release|Win32
 		{9D6A1CA5-D419-4E0E-A361-6D9217B8C8C0}.Release|x86.Build.0 = Release|Win32
+		{CD530BCE-0262-4A15-88D9-3DCACA01E333}.Debug|x64.ActiveCfg = Debug|x64
+		{CD530BCE-0262-4A15-88D9-3DCACA01E333}.Debug|x64.Build.0 = Debug|x64
+		{CD530BCE-0262-4A15-88D9-3DCACA01E333}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD530BCE-0262-4A15-88D9-3DCACA01E333}.Debug|x86.Build.0 = Debug|Win32
+		{CD530BCE-0262-4A15-88D9-3DCACA01E333}.Release|x64.ActiveCfg = Release|x64
+		{CD530BCE-0262-4A15-88D9-3DCACA01E333}.Release|x64.Build.0 = Release|x64
+		{CD530BCE-0262-4A15-88D9-3DCACA01E333}.Release|x86.ActiveCfg = Release|Win32
+		{CD530BCE-0262-4A15-88D9-3DCACA01E333}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

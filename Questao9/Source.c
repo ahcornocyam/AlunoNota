@@ -16,7 +16,7 @@ int main() {
 	char frase[21] = { ' ' };
 	int i = 0, comprimento = 0, vogais = 0;
 
-	printf("Digite a frese desejada: ");
+	printf("Digite a frase desejada: ");
 	gets_s(frase, 20);	
 	comprimento = strlen(frase);
 	vogais = qtdVogais(frase);
